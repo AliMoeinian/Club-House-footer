@@ -1,0 +1,41 @@
+body{
+    background-color: #221f14;
+}
+
+hr{
+    color: rgba(34,31,20,255);
+    width: 70%;
+    height:2px;
+    border-width:0;
+    background-color:gray
+}
+
+.contact-us{
+    display: flex;
+    justify-content: space-between;
+    height: 129px;
+    align-items: center;
+    font-family: "Lars Clubhouse", ui-sans-serif, "Helvetica Neue", Arial, sans-serif;
+}
+.icons-container{
+    margin-left: 280px;
+}
+.privacy-terms{
+    margin-right: 280px;
+}
+.remove-txt-decoration{
+    text-decoration: none;
+}
+.a-privacy-terms{
+    font-size: 16.96px;
+    color: #a4a297
+}
+.social-links-properties{
+    font-size: 30px;
+    color: white;
+}
+
+.hover-color:hover{
+    color: #ff7733;
+    transition: all 500ms;
+}
