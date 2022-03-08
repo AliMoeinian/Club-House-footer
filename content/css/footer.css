@@ -1,15 +1,68 @@
 body{
     background-color: #221f14;
 }
+footer{
+    margin-top: 150px;
+}
+.upper-side{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.header-propertie{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+}
+.remove-bullet{
+    list-style-type: none;
+    font-family: "Lucida sans", helvetica, sans-serif;
+}
+.remove-txt-decoration{
+    text-decoration: none;
+    color: #959387;
+    padding-bottom: 100px;
+}
+.remove-txt-decoration:hover{
+    color: #ff7733;
+    transition: all 500ms;
+}
+.right-side{
+    display: flex;
+}
+#app-image{
+    width: 80px;
+    height: 80px;
+    border-radius: 22.27%;
+}
+#club-house-text{
+    font-family: 'DM Serif Text', serif;
+    color: #959387;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#appStore-link{
+    padding-right: 20px;
+    height: 50px;
+}
+#googlePlay-link{
+    height: 50px;
+}
+ul li{
+    margin-bottom: 20px;
+}
 
 hr{
     color: rgba(34,31,20,255);
-    width: 70%;
+    width: 80%;
     height:2px;
     border-width:0;
     background-color:gray
 }
-
 .contact-us{
     display: flex;
     justify-content: space-between;
@@ -23,9 +76,6 @@ hr{
 .privacy-terms{
     margin-right: 280px;
 }
-.remove-txt-decoration{
-    text-decoration: none;
-}
 .a-privacy-terms{
     font-size: 16.96px;
     color: #a4a297
@@ -34,7 +84,6 @@ hr{
     font-size: 30px;
     color: white;
 }
-
 .hover-color:hover{
     color: #ff7733;
     transition: all 500ms;
